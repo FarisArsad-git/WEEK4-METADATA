@@ -2,9 +2,9 @@
 
 | Picture        | Tools             | Link / Command       | POC  | Analysis |
 |----------------|-------------------|----------------------|------|----------|
-| Ocean.jpg      | exiftool          | https://exif.tools/  |  | Online tools can also output same result as command in Kali          |
+| Ocean.jpg      | exiftool          | https://exif.tools/  |<img width="1034" height="742" alt="Screenshot 2026-04-16 141420" src="https://github.com/user-attachments/assets/a56589b4-d9b8-4a9c-8b5a-9371ed1e3e9b" />| Online tools can also output same result as command in Kali          |
 |                |                   | `exiftool ocean.jpg` |<img width="662" height="831" alt="image" src="https://github.com/user-attachments/assets/62c6ddaf-abcb-4ad9-b33d-f4086d9711f5" />| Can clearly saw the flag in comment section      |
-| Computer.jpg   | Hexeditor         | https://hexed.it/    | | Analyse the docs header      |
+| Computer.jpg   | Hexeditor         | https://hexed.it/    |<img width="836" height="181" alt="image" src="https://github.com/user-attachments/assets/2206d7d2-5886-4851-9070-6e29084071bf" />| Analyse the docs header      |
 |                |                   | `hexeditor computer.jpg` |<img width="647" height="238" alt="image" src="https://github.com/user-attachments/assets/a1c0453d-2bdd-4fde-aaf9-e039ad7f0c8b" />| Hexeditor in kali is really easy to use. <br> Can refer here for the header https://filesig.search.org/ |
 | dog.jpg        | binwalk           | `binwalk dog.jpg` <br> `binwalk -e dog.jpg` <br> `cd _dog.jpg.extracted/` |<img width="772" height="661" alt="image" src="https://github.com/user-attachments/assets/9c821ce6-dc02-4e6d-a58b-5d25393ca00d" /> | `binwalk` usually use for finding hidden file in the main file  |
 | computer.jpg   | strings           | https://www.dcode.fr/strings-extractor | | online tools for command `strings` |
